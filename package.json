@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-romanshe",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "My sharable config for the eslint linter",
   "main": "index.js",
   "keywords": [

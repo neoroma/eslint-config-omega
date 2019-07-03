@@ -11,6 +11,9 @@ module.exports = {
     "eslint:recommended",
     "standard"
   ],
+  "plugins": [
+    "react-hooks"
+  ],
   "rules": {
     "arrow-parens": [
       "error",
@@ -71,6 +74,8 @@ module.exports = {
       {
         "skipBlankLines": true
       }
-    ]
+    ],
+    "react-hooks/rules-of-hooks": "error"
+    "react-hooks/exhaustive-deps": "warn",
   }
 }
